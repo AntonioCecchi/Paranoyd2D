@@ -1,0 +1,8 @@
+﻿@startuml
+
+class Player
+class Enemy
+class Camera
+class LevelManager   
+
+@enduml

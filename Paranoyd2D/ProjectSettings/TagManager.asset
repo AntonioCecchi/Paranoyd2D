@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - Heart
+  - SpawnManager
+  - Enemy
+  - ShakeEnemy
+  - ScreenShake
+  - EnemyUpR
+  - EnemyDownR
+  - RespawnEffect
+  - DeathPanel
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Enemies
+  - Player
+  - Bullet
+  - PostProcessing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1888068425
+    locked: 0
+  - name: Enemies
+    uniqueID: 3643165911
+    locked: 0
+  - name: Player
+    uniqueID: 849344211
+    locked: 0
+  - name: Bullets
+    uniqueID: 2549107787
+    locked: 0
+  - name: Walls
+    uniqueID: 3774651227
+    locked: 0

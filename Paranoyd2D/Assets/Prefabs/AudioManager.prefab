@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9111341567300529629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2330784501403690345}
+  - component: {fileID: 29311588588459003}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2330784501403690345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111341567300529629}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.206572, y: -0.9124307, z: -1.4268521}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &29311588588459003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9111341567300529629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b567c7fa37a4cec41acb65777a04ba92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Esplosione
+    clip: {fileID: 8300000, guid: 246c970c88938a649a809a13ef4133d0, type: 3}
+    volume: 0.4
+    pitch: 1.3
+    loop: 0
+    source: {fileID: 0}
+  - name: FineLivello
+    clip: {fileID: 8300000, guid: ef3438215c458654f99513af937b0119, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: RotazionePiattaforma
+    clip: {fileID: 0}
+    volume: 0.5
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: UrtoProiettile
+    clip: {fileID: 8300000, guid: 4a9a2b229788cab449952151ef6bb364, type: 3}
+    volume: 0.3
+    pitch: 2
+    loop: 0
+    source: {fileID: 0}
+  - name: UrtoScudo
+    clip: {fileID: 8300000, guid: 4497e1e4ad79c0846bc2381f69639f0f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Soundtrack
+    clip: {fileID: 8300000, guid: 7b81791b03b397b4d8c84d040d47f8ee, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: StaPerSparare
+    clip: {fileID: 8300000, guid: 4df1eb3c763c76f4897def6da3a7b809, type: 3}
+    volume: 0.3
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Shoot
+    clip: {fileID: 8300000, guid: c7c600fd65096fb4bb71c608bccf72d4, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
